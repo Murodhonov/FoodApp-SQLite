@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:orientation="vertical"
+    tools:context=".Fragment.AddFragment">
+
+    <TextView
+        android:id="@+id/header_tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:drawablePadding="20dp"
+        android:drawableTint="@color/teal_200"
+        android:fontFamily="@font/raleway_semibold"
+        android:padding="20dp"
+        android:text="Add Food"
+        android:textColor="@color/teal_200"
+        android:textSize="25sp"
+        app:drawableLeftCompat="@drawable/ic_baseline_arrow_back_24"
+        app:drawableStartCompat="@drawable/ic_baseline_arrow_back_24"
+        tools:ignore="RtlSymmetry" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/food_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:drawableStart="@drawable/ic_baseline_food_bank_24"
+        android:drawableLeft="@drawable/ic_baseline_food_bank_24"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/teal_200"
+        android:fontFamily="@font/alegriya_medium"
+        android:hint="Name food"
+        android:inputType="text"
+        android:outlineAmbientShadowColor="@color/teal_200"
+        android:outlineSpotShadowColor="@color/teal_200"
+        android:shadowColor="@color/teal_200"
+        android:textColor="@color/teal_200"
+        android:textColorHighlight="@color/teal_200"
+        android:textColorHint="@color/teal_200"
+        android:textColorLink="@color/teal_200" />
+
+    <EditText
+        android:id="@+id/food_recipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:drawableStart="@drawable/ic_baseline_list_alt_24"
+        android:drawableLeft="@drawable/ic_baseline_list_alt_24"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/teal_200"
+        android:fontFamily="@font/alegriya_medium"
+        android:hint="Recipe food"
+        android:inputType="text"
+        android:outlineAmbientShadowColor="@color/teal_200"
+        android:outlineSpotShadowColor="@color/teal_200"
+        android:shadowColor="@color/teal_200"
+        android:textColor="@color/teal_200"
+        android:textColorHighlight="@color/teal_200"
+        android:textColorHint="@color/teal_200"
+        android:textColorLink="@color/teal_200" />
+
+    <EditText
+        android:id="@+id/food_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:drawableStart="@drawable/ic_baseline_info_24"
+        android:drawableLeft="@drawable/ic_baseline_info_24"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/teal_200"
+        android:fontFamily="@font/alegriya_medium"
+        android:hint="Description food"
+        android:inputType="text"
+        android:outlineAmbientShadowColor="@color/teal_200"
+        android:outlineSpotShadowColor="@color/teal_200"
+        android:shadowColor="@color/teal_200"
+        android:textColor="@color/teal_200"
+        android:textColorHighlight="@color/teal_200"
+        android:textColorHint="@color/teal_200"
+        android:textColorLink="@color/teal_200" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/teal_200"
+        android:fontFamily="@font/lobster"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

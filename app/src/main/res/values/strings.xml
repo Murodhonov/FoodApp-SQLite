@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FoodApp SQLite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="food_app">Food App</string>
+    <string name="add_food">Add Food</string>
+    <string name="list_food">List Food</string>
+</resources>
